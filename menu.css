@@ -68,15 +68,22 @@ body {
 .info-block-label{
   font-weight: 900;
   border-style: solid;
+  font-size: 20px;
+}
+.info-block-info{
+  font-size: 16px;
 }
 .info-block{
-  margin-left: 5%;
+  /*margin-left: 5%;*/
   margin-right: 20%;
   margin-bottom: 12px;
   border-style: none none none solid;
   border-color: #597FA5;
   padding: 2%;
+/*  float: left;*/
+  display: inline-block;
   float: left;
+
 }
 .twitter-timeline{
   width: 100% !important;
