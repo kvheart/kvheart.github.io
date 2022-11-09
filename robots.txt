@@ -8,8 +8,126 @@ Disallow: /_api/*
 Disallow: /_partials*
 Disallow: /pro-gallery-webapp/v1/galleries/*
 
-# Block PetalBot
-User-agent: PetalBot
+# DO NOT MODIFY - Disallow spam-bots and other unsavory sites
+
+User-agent: Baiduspider
 Disallow: /
 
+User-agent: 008
+   Disallow: /
+
+User-agent: TinEye
+   Disallow: /
+
+# Block Yeti
+User-agent: Yeti
+Disallow: /
+
+# Block NextGenSearchBot
+User-agent: NextGenSearchBot
+Disallow: /
+
+# Block ia-archiver from crawling site 
+User-agent: ia_archiver
+Disallow: /
+
+# Block archive.org_bot from crawling site
+User-agent: archive.org_bot
+Disallow: /
+
+# Block Archive.org Bot from crawling site
+User-agent: Archive.org Bot
+Disallow: /
+
+# Block LinkWalker from crawling site
+User-agent: LinkWalker
+Disallow: /
+
+# Block ia_archiver-web.archive.org_bot from crawling site
+User-agent: ia_archiver-web.archive.org 
+Disallow: /
+
+
+# Block PicScout Crawler from crawling site 
+User-agent: PicScout
+Disallow: /
+
+# Block 008 from crawling site 
+User-agent: 008
+Disallow: /
+
+# Block AhrefsBot from crawling site 
+User-agent: AhrefsBot
+Disallow: /
+
+
+# Block TinEye from crawling site 
+User-agent: TinEye
+Disallow: /
+
+# Block SEOkicks
+User-agent: SEOkicks-Robot
+Disallow: /
+
+# Block netEstate NE Crawler (+http://www.website-datenbank.de/)
+User-agent: netEstate NE Crawler (+http://www.website-datenbank.de/)
+Disallow: /
+
+# Block WiseGuys Robot
+User-agent: WiseGuys Robot
+Disallow: /
+
+# Block Turnitin Robot
+User-agent: Turnitin Robot
+Disallow: /
+
+# Block Heritrix
+User-agent: Heritrix
+Disallow: /
+
+
+# Block Psbot
+User-agent: Psbot
+Disallow: /
+
+# Block Youdao
+User-agent: YoudaoBot
+Disallow: /
+
+# Block NaverBot
+User-agent: NaverBot
+User-agent: Yeti
+Disallow: /
+
+# Block ZBot
+User-agent: ZBot
+Disallow: /
+
+# Block Vagabondo
+User-agent: Vagabondo
+Disallow: /
+
+# Block Quantify
+User-agent: Quantify
+Disallow: /
+
+# Block Plukkie
+User-agent: Plukkie
+Disallow: /
+
+# Block Cuam
+User-agent: Cuam
+Disallow: /
+
+# Block DotBot
+User-agent: dotbot
+Disallow: /
+
+# Block Yandex
+User-agent: yandex
+Disallow: /
+
+User-agent: *
+Disallow: /*?_bc_fsnf=1*
+Disallow: /*&_bc_fsnf=1*
 Sitemap: https://kvheart.com/sitemap.xml
