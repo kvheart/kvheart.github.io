@@ -81,9 +81,8 @@ body {
   border-color: #597FA5;
   padding: 2%;
 /*  float: left;*/
-  display: inline-block;
-  float: left;
-
+ /* display: inline-block;*/
+ 
 }
 .twitter-timeline{
   width: 100% !important;
