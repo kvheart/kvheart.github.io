@@ -7,6 +7,7 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #000000;
+  border-style: none none solid none;
 }
 
 .topnav a {
@@ -89,7 +90,8 @@ body {
 }
 }
 .logo{
-  background-color: #ebcea4;
+  background-color: #ffffff;\
+  border-style: none none solid none;
 }
 
 h2{
