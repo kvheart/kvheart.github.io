@@ -80,7 +80,7 @@ body {
   margin-bottom: 12px;
   border-style: none none none solid;
   border-color: #597FA5;
-  padding: 2%;
+  padding: 2%; 
 /*  float: left;*/
  /* display: inline-block;*/
  
@@ -103,7 +103,11 @@ li{
   margin-left: 5%;
 }
 
+
 .profile-pic{
   border-style: solid;
   
 }
+/*#ForgotPassword{
+  color:indianred;
+}*/
