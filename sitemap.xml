@@ -14,10 +14,6 @@
     </url>
 
     <url>
-      <loc>https://kvheart.com/about</loc>
-    </url>
-
-    <url>
       <loc>https://kvheart.com/news</loc>
       <changefreq>daily</changefreq>
     </url>
@@ -27,10 +23,6 @@
       <priority>0.9</priority>
       <changefreq>yearly</changefreq>
     </url> 
-        <url>
-      <loc>https://kvheart.com/patientportal</loc>
-      <changefreq>monthly</changefreq>
-    </url>
 
 
 </urlset> 
