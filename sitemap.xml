@@ -15,11 +15,17 @@
 
     <url>
       <loc>https://kvheart.com/news</loc>
+      <priority>0.5</priority>
       <changefreq>daily</changefreq>
     </url>
 
     <url>
       <loc>https://kvheart.com/contact</loc>
+      <priority>0.9</priority>
+      <changefreq>yearly</changefreq>
+    </url> 
+    <url>
+      <loc>https://kvheart.com/patientportal</loc>
       <priority>0.9</priority>
       <changefreq>yearly</changefreq>
     </url> 
