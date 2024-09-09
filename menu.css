@@ -108,6 +108,10 @@ li{
   border-style: solid;
   
 }
+.Announcements{
+  font-family: ui-monospace;
+  color: #2929a3;
+}
 /*#ForgotPassword{
   color:indianred;
 }*/
