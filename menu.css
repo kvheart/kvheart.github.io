@@ -72,7 +72,9 @@ body {
   font-size: 20px;
 }
 .info-block-info{
-  font-size: 18 px;
+  font-size: 22 px;
+  line-height: 4 px;
+
 }
 .info-block{
   /*margin-left: 5%;*/
