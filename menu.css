@@ -55,6 +55,7 @@ body {
     text-align: left;
   }
 }
+
 .fa{
     display:inline-block;
     font:normal normal normal 14px/1 FontAwesome;
@@ -86,9 +87,9 @@ body {
  /* display: inline-block;*/
  
 }
-.twitter-timeline{
+/*.twitter-timeline{
   width: 100% !important;
-}
+} */
 
 .logo{
   background-color: #ffffff;
