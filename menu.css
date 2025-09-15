@@ -1,14 +1,16 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
 }
 
 
 .topnav {
   overflow: hidden;
-  background-color: #000000;
+  background-color: #000000f3;
   border-style: none none solid none;
 }
+
 
 .topnav a {
   float: left;
@@ -20,19 +22,23 @@ body {
   font-size: 17px;
 }
 
+
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #f2f2f2;
   color: black;
 }
 
+
 .topnav a.active {
   background-color: #996666;
-  color: white;
+  color: #f2f2f2;
 }
+
 
 .topnav .icon {
   display: none;
 }
+
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -67,6 +73,7 @@ body {
 .fa-navicon:before,.fa-reorder:before,.fa-bars:before{
     content:"\f0c9"
 }
+
 .info-block-label{
   font-weight: 900;
   border-style: solid;
@@ -83,18 +90,20 @@ body {
   border-style: none none none solid;
   border-color: #597FA5;
   padding: 2%; 
-  font-size: 18 px;
+  font-size: 18px;
+  margin-bottom: auto;
+}
 
 /*  float: left;*/
  /* display: inline-block;*/
  
-}
+
 /*.twitter-timeline{
   width: 100% !important;
 } */
 
 .logo{
-  background-color: #ffffff;
+  background-color: #f2f2f2;
   border-style: none none solid none;
 }
 h1{
