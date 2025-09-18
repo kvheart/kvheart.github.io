@@ -127,6 +127,16 @@ li{
 }
 
 
+details > details > summary
+{
+margin-left:12px
+}
+
+details > details > details > summary
+{
+margin-left:24px
+}
+
 /*#ForgotPassword{
   color:indianred;
 }*/
