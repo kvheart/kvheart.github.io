@@ -79,6 +79,7 @@ body {
   border-style: solid;
   font-size: 20px;
 }
+
 .info-block-info{
   font-size: 22 px;
 
@@ -92,6 +93,23 @@ body {
   padding: 2%; 
   font-size: 18px;
   margin-bottom: auto;
+}
+
+.drop-down-menu{
+  font-size: 19px;
+  color: black;
+  margin-left: 0px;
+  margin-
+}
+.drop-down-menu:hover{
+  background: #b9b9b9;
+}
+
+.drop-down-menu-text{
+  font-size: 18px;
+  color: black;
+  margin-left: 24px;
+  margin-top: 14px;
 }
 
 /*  float: left;*/
@@ -135,6 +153,14 @@ margin-left:12px
 details > details > details > summary
 {
 margin-left:24px
+}
+
+details > summary {
+    list-style-type: '+ ';
+}
+
+details[open] > summary {
+    list-style-type: '- ';
 }
 
 /*#ForgotPassword{
