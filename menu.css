@@ -167,6 +167,7 @@ details[open] > summary {
 #map {
   height: 350px;
   width: 95%;
+  margin-right: 5%;
 }
 /*#ForgotPassword{
   color:indianred;
