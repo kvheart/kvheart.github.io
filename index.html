@@ -9,6 +9,13 @@
     <title>Kensington Valley Heart &#8211; KVH</title>
     <link rel="icon" type="image/png" href="images/KVH-Logo-small-50px.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+      <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+
 
   </head>
 
@@ -91,9 +98,28 @@
   </body>
 </html>
 -->
+<div id="map"></div>
+<script>
+  var map = L.map('map').setView([2.5569362989184, -83.438015470524600], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
 
 
-</div>
+var markerLakes = L.marker([42.556953629891844, -83.43801547052463]).addTo(map);
+markerLakes.bindPopup("<b>Kensington Valley Heart</b><br> Satellite Office (Lakes)<br></br>2300 Haggerty Rd <br> West Bloomfield Township, MI, 48323").openPopup();
+
+var markerMilford = L.marker([42.6037625925119, -83.612000000000]).addTo(map);
+markerMilford.bindPopup("<b>Kensington Valley Heart</b><br> Main Office (Milford)<br></br>1435 N Milford Rd <br> Suite 201 <br> Milford, MI, 48381").openPopup();
+
+map.setView(markerMilford.getLatLng(), 11.7); // '15' is an example zoom level
+
+</script>
+
+<div>tes</div>
+
+
 
 <script>
 function myFunction() {

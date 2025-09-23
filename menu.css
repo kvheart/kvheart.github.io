@@ -163,6 +163,10 @@ details[open] > summary {
     list-style-type: '- ';
 }
 
+#map { 
+  height: 350px; 
+}
+
 /*#ForgotPassword{
   color:indianred;
 }*/
