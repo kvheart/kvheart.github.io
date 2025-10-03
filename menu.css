@@ -175,7 +175,7 @@ details[open] > summary {
 }
 
 table{
-  width: 100%;
+  width: 60%;
   padding-right: 5%;
 }
 th {
@@ -191,6 +191,97 @@ td:nth-child(2) {
   font-size: 20px;
 }
 
+table tr:hover {
+  background-color: #b9b9b9; /* Choose your desired highlight color */
+}
+.my-box {
+  /* Box dimensions and spacing */
+  width: 300px; /* Adjust as needed */
+  padding: 20px;
+  margin: 20px auto; /* Center the box horizontally */
+
+  /* Visual appearance */
+  background-color: #ffffff; /* White background */
+  border: 1px solid #e0e0e0; /* Subtle light gray border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+
+  /* Text styling */
+  font-family: Arial, sans-serif;
+  color: #333333;
+}
+
+.my-box h2 {
+  color: #007bff; /* Example accent color for title */
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.my-box p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.my-box ul {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.my-box ul li {
+  margin-bottom: 5px;
+}
+
+
+.about-us-box {
+  /* Box dimensions and spacing */
+  width: 80%px; /* Adjust as needed */
+  padding: 20px;
+  margin: 5%; /* Center the box horizontally */
+
+  /* Visual appearance */
+  background-color: #ffffff; /* White background */
+  border: 1px solid #e0e0e0; /* Subtle light gray border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+
+  /* Text styling */
+  font-family: Arial, sans-serif;
+  color: #333333;
+}
+
+.about-us-box h2 {
+  color: #30547a; /* Example accent color for title */
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.about-us-box h3 {
+  font-size: 23px;
+  color:rgba(0, 0, 0, 0.801);
+}
+
+.about-us-box h4 {
+  font-size: 18x;
+  color:rgba(0, 0, 0, 0.801);
+}
+
+.about-us-box p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.about-us-box ul {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.about-us-box ul li {
+  margin-bottom: 5px;
+}
 /*#ForgotPassword{
   color:indianred;
 }*/
