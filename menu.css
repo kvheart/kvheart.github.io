@@ -86,7 +86,6 @@ body {
 
 }
 .info-block{
-  /*margin-left: 5%;*/
   margin-right: 20%;
   margin-bottom: 12px;
   border-style: none none none solid;
@@ -112,14 +111,6 @@ body {
   margin-left: 24px;
   margin-top: 14px;
 }
-
-/*  float: left;*/
- /* display: inline-block;*/
- 
-
-/*.twitter-timeline{
-  width: 100% !important;
-} */
 
 .logo{
   background-color: #f2f2f2;
@@ -178,8 +169,22 @@ table{
   width: 60%;
   padding-right: 5%;
 }
+
+.about-us-box {
+  width: 80%px; 
+  padding: 20px;
+  margin: 5%; 
+  background-color: #ffffff; /
+  border: 1px solid #e0e0e0;
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  color: #333333;
+}
+
 th {
   font-size: 22px;
+  border: 1px: solid #e0e0e0;
 }
 
 th:nth-child(1) {
@@ -192,27 +197,23 @@ td:nth-child(2) {
 }
 
 table tr:hover {
-  background-color: #b9b9b9; /* Choose your desired highlight color */
+  background-color: #b9b9b9;
 }
+
 .my-box {
-  /* Box dimensions and spacing */
-  width: 300px; /* Adjust as needed */
+  width: 300px;
   padding: 20px;
-  margin: 20px auto; /* Center the box horizontally */
-
-  /* Visual appearance */
-  background-color: #ffffff; /* White background */
-  border: 1px solid #e0e0e0; /* Subtle light gray border */
-  border-radius: 8px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
-
-  /* Text styling */
+  margin: 20px auto;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   font-family: Arial, sans-serif;
   color: #333333;
 }
 
 .my-box h2 {
-  color: #007bff; /* Example accent color for title */
+  color: #007bff;
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -223,7 +224,7 @@ table tr:hover {
 }
 
 .my-box ul {
-  list-style-type: none; /* Remove default bullet points */
+  list-style-type: none;
   padding: 0;
   margin: 0;
 }
@@ -234,24 +235,19 @@ table tr:hover {
 
 
 .about-us-box {
-  /* Box dimensions and spacing */
-  width: 80%px; /* Adjust as needed */
+  width: 80%px; 
   padding: 20px;
-  margin: 5%; /* Center the box horizontally */
-
-  /* Visual appearance */
-  background-color: #ffffff; /* White background */
-  border: 1px solid #e0e0e0; /* Subtle light gray border */
-  border-radius: 8px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
-
-  /* Text styling */
+  margin: 5%; 
+  background-color: #ffffff; /
+  border: 1px solid #e0e0e0;
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   font-family: Arial, sans-serif;
   color: #333333;
 }
 
 .about-us-box h2 {
-  color: #30547a; /* Example accent color for title */
+  color: #30547a;
   margin-top: 0;
   margin-bottom: 10px;
   font-size: 28px;
@@ -259,22 +255,22 @@ table tr:hover {
 
 .about-us-box h3 {
   font-size: 23px;
-  color:rgba(0, 0, 0, 0.801);
+  color:rgb(0, 0, 0);
 }
 
 .about-us-box h4 {
-  font-size: 18x;
-  color:rgba(0, 0, 0, 0.801);
+  font-size: 19.5px;
+  color:rgba(0, 0, 0, 0.788);
 }
 
 .about-us-box p {
   line-height: 1.6;
   margin-bottom: 15px;
-  font-size: 20px;
+  font-size: 21px;
 }
 
 .about-us-box ul {
-  list-style-type: none; /* Remove default bullet points */
+  list-style-type: none;
   padding: 0;
   margin: 0;
 }
@@ -282,6 +278,3 @@ table tr:hover {
 .about-us-box ul li {
   margin-bottom: 5px;
 }
-/*#ForgotPassword{
-  color:indianred;
-}*/

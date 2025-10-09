@@ -37,5 +37,18 @@
       <changefreq>yearly</changefreq>
     </url> 
 
+     <url>
+      <loc>https://kvheart.com/testing</loc>
+      <priority>0.9</priority>
+      <changefreq>yearly</changefreq>
+    </url> 
+    
+
+    <url>
+      <loc>https://kvheart.com/faqs</loc>
+      <priority>0.5</priority>
+      <changefreq>yearly</changefreq>
+    </url> 
+
 
 </urlset> 
