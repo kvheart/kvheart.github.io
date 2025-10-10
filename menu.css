@@ -2,16 +2,13 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f2f2f2;
-
 }
-
 
 .topnav {
   overflow: hidden;
   background-color: #000000f3;
   border-style: none none solid none;
 }
-
 
 .topnav a {
   float: left;
@@ -23,23 +20,19 @@ body {
   font-size: 17px;
 }
 
-
 .topnav a:hover {
   background-color: #f2f2f2;
   color: black;
 }
-
 
 .topnav a.active {
   background-color: #996666;
   color: #f2f2f2;
 }
 
-
 .topnav .icon {
   display: none;
 }
-
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -85,6 +78,7 @@ body {
   font-size: 22 px;
 
 }
+
 .info-block{
   margin-right: 20%;
   margin-bottom: 12px;
@@ -107,6 +101,24 @@ body {
 
 .drop-down-menu-text{
   font-size: 18px;
+  color: black;
+  margin-left: 24px;
+  margin-top: 14px;
+}
+
+.drop-down-menu-testing{
+  font-size: 28px;
+  color: black;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+
+.drop-down-menu-testing:hover{
+  background: #b9b9b9;
+}
+
+.drop-down-menu-text-testing{
+  font-size: 20px;
   color: black;
   margin-left: 24px;
   margin-top: 14px;
@@ -152,11 +164,11 @@ margin-left:24px
 }
 
 details > summary {
-    list-style-type: '+ ';
+    list-style-type: '+';
 }
 
 details[open] > summary {
-    list-style-type: '- ';
+    list-style-type: '-';
 }
 
 #map {
