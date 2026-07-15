@@ -1,12 +1,115 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f2f2f2;
+  background-color: #f9f9f9;
 }
 
+h2{
+  margin-left: 5%;
+}
+li{
+  margin-left: 5%;
+}
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+    row-gap: 40px;
+    column-gap: 40px;
+}
+.container {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.copyright{
+  text-align: center;
+}
+.doctor-names{
+  margin-top:8px;
+  margin-bottom:0px;
+  margin-left:7%;
+}
+.featured-photo img{
+  padding-top: 8px;
+  max-width: 95%;
+}
+.featured-photo{
+  background-color: #ddd; 
+  width: 100%; 
+  height: auto; 
+  display: block; 
+  align-items: center;
+  justify-content: center; 
+  border-radius: 8px;"
+  color: #666;
+  padding-left: 5%;
+  max-width: 95%
+}
+.footer-container{
+  overflow: hidden;
+  background-color: #000000;
+  border-style: none none solid none;
+  color:white;
+  margin-top: 40px;
+}
+#header-phone{
+  float: right;
+/*  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px
+  */
+}
+.image-caption{
+  font-style: italic;
+  font-size: 12px;
+  color:#999999;
+  padding: 0px;
+}
+.info-block-label{
+  font-weight: 900;
+  border-style: solid;
+  font-size: 20px;
+}
+.info-block-info{
+  font-size: 20px;
+}
+.info-block{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 12px;
+  border-style: none none none solid;
+  border-color: #597FA5;
+  padding: 2%; 
+  background-color: white;
+/*  float: left;*/
+ /* display: inline-block;*/
+ 
+}
+.twitter-timeline{
+  width: 100% !important;
+}
+
+.logo{
+  background-color: #ffffff;\
+  border-style: none none solid none;
+}
+
+
+.profile-pic{
+  border-style: solid;
+}
+
+.welcome-section{
+  text-align: center;
+}
+
+/******** this section is for the top menu bar ******/
 .topnav {
   overflow: hidden;
-  background-color: #000000f3;
+  background-color: #000000;
   border-style: none none solid none;
 }
 
@@ -21,18 +124,20 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #f2f2f2;
+  background-color: #ddd;
   color: black;
 }
 
 .topnav a.active {
   background-color: #996666;
-  color: #f2f2f2;
+  color: white;
 }
 
 .topnav .icon {
   display: none;
 }
+
+
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -54,8 +159,31 @@ body {
     display: block;
     text-align: left;
   }
+  .about-grid {
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
 }
-
+@media screen and (max-width: 750px){
+  .about-grid {
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 350px){
+  .hours {
+    font-size: 16px;
+    margin-right: 0%;
+  }
+  .info-block{
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  #header-phone{
+    
+    text-align: center;
+  }
+}
 .fa{
     display:inline-block;
     font:normal normal normal 14px/1 FontAwesome;
@@ -68,225 +196,3 @@ body {
     content:"\f0c9"
 }
 
-.info-block-label{
-  font-weight: 900;
-  border-style: solid;
-  font-size: 20px;
-}
-
-.info-block-info{
-  font-size: 22 px;
-
-}
-
-.info-block{
-  margin-right: 20%;
-  margin-bottom: 12px;
-  border-style: none none none solid;
-  border-color: #597FA5;
-  padding: 2%; 
-  font-size: 18px;
-  margin-bottom: auto;
-}
-
-.drop-down-menu{
-  font-size: 19px;
-  color: black;
-  margin-left: 0px;
-}
-
-.drop-down-menu:hover{
-  background: #b9b9b9;
-}
-
-.drop-down-menu-text{
-  font-size: 18px;
-  color: black;
-  margin-left: 24px;
-  margin-top: 14px;
-}
-
-.drop-down-menu-testing{
-  font-size: 28px;
-  color: black;
-  margin-left: 0px;
-  margin-bottom: 20px;
-}
-
-.drop-down-menu-testing:hover{
-  background: #b9b9b9;
-}
-
-.drop-down-menu-text-testing{
-  font-size: 20px;
-  color: black;
-  margin-left: 24px;
-  margin-top: 14px;
-}
-
-.logo{
-  background-color: #f2f2f2;
-  border-style: none none solid none;
-}
-h1{
-  margin-left: 5%;
-}
-h2{
-  margin-left: 5%;
-}
-li{
-  margin-left: 5%;
-}
-
-
-.profile-pic{
-  border-style: solid;
-  
-}
-.Announcements{
-  font-family: ui-monospace;
-  color: #6b1852;
-}
-
-
-details > details > summary
-{
-margin-left:12px
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-details > details > details > summary
-{
-margin-left:24px
-}
-
-details > summary {
-    list-style-type: '+';
-}
-
-details[open] > summary {
-    list-style-type: '-';
-}
-
-#map {
-  height: 500px;
-  width: 95%;
-  margin-right: 5%;
-}
-
-table{
-  width: 60%;
-  padding-right: 5%;
-}
-
-.about-us-box {
-  width: 80%px; 
-  padding: 20px;
-  margin: 5%; 
-  background-color: #ffffff; /
-  border: 1px solid #e0e0e0;
-  border-radius: 8px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  font-family: Arial, sans-serif;
-  color: #333333;
-}
-
-th {
-  font-size: 22px;
-  border: 1px: solid #e0e0e0;
-}
-
-th:nth-child(1) {
-  text-align: left; 
-}
-
-td:nth-child(2) { 
-  text-align: right;
-  font-size: 20px;
-}
-
-table tr:hover {
-  background-color: #b9b9b9;
-}
-
-.my-box {
-  width: 300px;
-  padding: 20px;
-  margin: 20px auto;
-  background-color: #ffffff;
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  font-family: Arial, sans-serif;
-  color: #333333;
-}
-
-.my-box h2 {
-  color: #007bff;
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-
-.my-box p {
-  line-height: 1.6;
-  margin-bottom: 15px;
-}
-
-.my-box ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.my-box ul li {
-  margin-bottom: 5px;
-}
-
-
-.about-us-box {
-  width: 80%px; 
-  padding: 20px;
-  margin: 5%; 
-  background-color: #ffffff; /
-  border: 1px solid #e0e0e0;
-  border-radius: 8px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  font-family: Arial, sans-serif;
-  color: #333333;
-}
-
-.about-us-box h2 {
-  color: #30547a;
-  margin-top: 0;
-  margin-bottom: 10px;
-  font-size: 28px;
-}
-
-.about-us-box h3 {
-  font-size: 23px;
-  color:rgb(0, 0, 0);
-}
-
-.about-us-box h4 {
-  font-size: 19.5px;
-  color:rgba(0, 0, 0, 0.788);
-}
-
-.about-us-box p {
-  line-height: 1.6;
-  margin-bottom: 15px;
-  font-size: 21px;
-}
-
-.about-us-box ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.about-us-box ul li {
-  margin-bottom: 5px;
-}
